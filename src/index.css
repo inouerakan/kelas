@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Righteous&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-head: "Righteous", sans-serif;
+    --font-body: "Plus Jakarta Sans", sans-serif;
+    --color-light: #ffede2;
+    --color-primary: oklch(64.6% 0.222 41.116);
+    --text-head-1: 64px;
+    --text-head-1--line-height: 64px;
+    --text-head-2: 48px;
+    --text-head-2--line-height: 56px;
+    --text-head-3: 24px;
+    --text-head-3--line-height: 32px;
+    --text-body-1: 48px;
+    --text-body-1--line-height: 56px;
+    --text-body-2: 18px;
+    --text-body-2--line-height: 27px;
+    --text-body-3: 12px;
+    --text-body-3--line-height: 16px;
+}
+
+html {
+    scrollbar-width: none;
+}
