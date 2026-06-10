@@ -3,6 +3,30 @@ import gsap from "gsap";
 
 const sentences = ['WE ARE RPL', 'YOUNG DEVS', 'BUILD & CREATE', 'CODE & DESIGN', 'XI RPL 2', 'LETS GO'];
 
+function preventDefault(e) {
+    e.preventDefault();
+}
+
+function preventKeyScroll(e) {
+    const keys = [' ', 'ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End'];
+    if (keys.includes(e.key)) {
+        e.preventDefault();
+    }
+}
+
+function disableScroll() {
+    window.addEventListener('wheel', preventDefault, { passive: false });
+    window.addEventListener('touchmove', preventDefault, { passive: false });
+    window.addEventListener('keydown', preventKeyScroll, { passive: false });
+}
+
+// Unlock scrolling
+function enableScroll() {
+    window.removeEventListener('wheel', preventDefault);
+    window.removeEventListener('touchmove', preventDefault);
+    window.removeEventListener('keydown', preventKeyScroll);
+}
+
 export default function StudentProfile({ data }) {
     const [infoOpen, setInfoOpen] = useState(false);
     const [selectedStudent, setSelectedStudent] = useState(0);
@@ -22,7 +46,7 @@ export default function StudentProfile({ data }) {
 
     function openStudentInfo(id) {
         setInfoOpen(true);
-        document.body.style.overflowY = 'hidden';
+        disableScroll();
         const students = document.querySelectorAll('.student-item');
         gsap.to('.bg-students', { opacity: 0 });
 
@@ -44,7 +68,7 @@ export default function StudentProfile({ data }) {
 
     function closeStudentInfo(id) {
         setInfoOpen(false);
-        document.body.style.overflowY = 'auto';
+        enableScroll();
         gsap.to('.bg-students', { opacity: 1 });
 
         visibleStudentsRef.current.forEach((item) => {
@@ -62,22 +86,27 @@ export default function StudentProfile({ data }) {
     }
 
     return (
-        <div id="student-profile" className="w-fit h-svh flex items-center gap-35 pl-110 md:pl-275 pr-80 font-head students relative">
-            {data.map((item, index) => (
-                <div
-                    key={item.id}
-                    data-id={item.id}
-                    style={{ transform: `translateY(${studentOffsets[index]}px)` }}
-                    className="relative aspect-square w-50 bg-primary text-head-2 student-item shadow-2xl flex flex-col justify-between p-2"
-                    onClick={() => toggleStudentInfo(item.id)}>
-                    <h2 className="absolute -bottom-10 -right-10 text-center">{item.id}</h2>
-                    <h1 className="absolute -top-15 text-center text-nowrap left-1/2 -translate-x-1/2 opacity-0 student-info">{item.nickname}</h1>
-                    <p className="font-body text-body-2 opacity-0 student-info text-start text-light">{item.jenisKelamin}, {item.tanggalLahir}</p>
-                    <p className="font-body text-body-2 opacity-0 self-center text-center student-info text-light">{item.nama}</p>
-                    <p className="font-body text-body-2 opacity-0 self-end student-info text-end text-light">{item.hobi}</p>
-                    <div style={{ backgroundImage: `url(/images/students/${item.nama.toLowerCase().split(' ').join('')}.webp)` }} className="absolute inset-0 bg-cover bg-center w-full h-full student-image"></div>
-                </div>
-            ))}
+        <div id="student-profile" className="w-fit h-svh flex items-center gap-35 pl-110 md:pl-300 pr-80 md:pr-140 font-head students relative">
+            {data.map((item, index) => {
+                const fileName = item.nama.toLowerCase().split(' ').join('');
+                const imageUrl = new URL(`../assets/images/students/${fileName}.webp`, import.meta.url).href;
+
+                return (
+                    <div
+                        key={item.id}
+                        data-id={item.id}
+                        style={{ transform: `translateY(${studentOffsets[index]}px)` }}
+                        className="relative aspect-square w-50 bg-primary text-head-2 student-item shadow-2xl flex flex-col justify-between p-2 will-change-transform"
+                        onClick={() => toggleStudentInfo(item.id)}>
+                        <h2 className="absolute -bottom-10 -right-10 text-center text-dark">{item.id}</h2>
+                        <h1 className="absolute -top-15 text-center text-nowrap left-1/2 -translate-x-1/2 opacity-0 student-info">{item.nickname}</h1>
+                        <p className="font-body text-body-2 opacity-0 student-info text-start text-light">{item.jenisKelamin}, {item.tanggalLahir}</p>
+                        <p className="font-body text-body-2 opacity-0 self-center text-center student-info text-light">{item.nama}</p>
+                        <p className="font-body text-body-2 opacity-0 self-end student-info text-end text-light">{item.hobi}</p>
+                        <div style={{ backgroundImage: `url(${imageUrl})` }} className="absolute inset-0 bg-cover bg-center w-full h-full student-image rendering-speed bg-no-repeat"></div>
+                    </div>
+                )
+            })}
             <div className="w-full h-full flex justify-around items-center absolute -z-1 left-0 bg-students">
                 {sentences.map((item, index) => (
                     <h1
