@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nama": "Innoventur",
+        "peringkat": 3,
+        "anggota": [
+            "Hadrian",
+            "Fiqri",
+            "Andika"
+        ]
+    },
+    {
+        "id": 2,
+        "nama": "Wallart Harmony",
+        "peringkat": 1,
+        "anggota": [
+            ""
+        ]
+    },
+    {
+        "id": 3,
+        "nama": "Body Move Harmony",
+        "peringkat": 3,
+        "anggota": [
+            ""
+        ]
+    },
+    {
+        "id": 4,
+        "nama": "Technova",
+        "peringkat": 3,
+        "anggota": [
+            "Zaneta",
+            "Hadrian",
+            "Andika"
+        ]
+    }
+]

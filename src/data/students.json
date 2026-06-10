@@ -1,103 +1,83 @@
 [
     {
         "id": 0,
-        "nama": "Your Full Name",
-        "nickname": "Nickname",
-        "jenisKelamin": "L",
+        "nama": "Rima",
+        "nickname": "Rima",
+        "jenisKelamin": "P",
         "tanggalLahir": "17 Aug 1945",
-        "hobi": [
-            "Playing, Living"
-        ]
+        "hobi": "Playing, Living"
     },
     {
         "id": 1,
-        "nama": "Rakan Shaka Raufa",
-        "nickname": "Rakkun",
+        "nama": "Alfinus Prasetya",
+        "nickname": "Pinus",
         "jenisKelamin": "L",
-        "tanggalLahir": "18 Nov 2008",
-        "hobi": [
-            "Main Cities: Skylines, Hidup"
-        ]
+        "tanggalLahir": "24 Dec 2008",
+        "hobi": "Main Musik"
     },
     {
         "id": 2,
-        "nama": "Ezra Arkana Putra",
-        "nickname": "Mang Ezar",
-        "jenisKelamin": "L",
-        "tanggalLahir": "28 Dec 2008",
-        "hobi": [
-            "Ngedit, Nonton Anime"
-        ]
+        "nama": "Amelia Cahya Anggraeni",
+        "nickname": "Amel",
+        "jenisKelamin": "P",
+        "tanggalLahir": "14 Sep 2009",
+        "hobi": "Mendengar Musik, Baca Novel"
     },
     {
         "id": 3,
-        "nama": "Khaffa Daru Hastri",
-        "nickname": "Rakkun",
+        "nama": "Andika Rasya",
+        "nickname": "Andikairi",
         "jenisKelamin": "L",
-        "tanggalLahir": "17 Aug 1945",
-        "hobi": [
-            "Main Mobile Legend, Ngodink"
-        ]
+        "tanggalLahir": "08 Oct 2008",
+        "hobi": "Bermain Kelereng"
     },
     {
         "id": 4,
-        "nama": "Aditya Pratama",
-        "nickname": "Adit",
+        "nama": "Asep Sulaeman",
+        "nickname": "Zep",
         "jenisKelamin": "L",
-        "tanggalLahir": "12 Jan 2008",
-        "hobi": [
-            "Ngodink, Push Rank"
-        ]
+        "tanggalLahir": "02 Feb 2009",
+        "hobi": "Bermain Mobile Legends"
     },
     {
         "id": 5,
-        "nama": "Alya Nur Azizah",
-        "nickname": "Alya",
-        "jenisKelamin": "P",
-        "tanggalLahir": "04 Feb 2008",
-        "hobi": [
-            "Menggambar, Dengerin Musik"
-        ]
+        "nama": "Azril hadhi Alfiansyah",
+        "nickname": "Azil",
+        "jenisKelamin": "L",
+        "tanggalLahir": "06 Jul 2008",
+        "hobi": "Futsal"
     },
     {
         "id": 6,
-        "nama": "Arif Rahman Hakim",
-        "nickname": "Arif",
+        "nama": "Bayu Indra Pratama",
+        "nickname": "Bay",
         "jenisKelamin": "L",
-        "tanggalLahir": "15 Mar 2008",
-        "hobi": [
-            "Bermain Gitar, Ngoprek Linux"
-        ]
+        "tanggalLahir": "09 Nov 2008",
+        "hobi": "Menggambar, Mendengar Musik"
     },
     {
         "id": 7,
-        "nama": "Bagus Setiawan",
-        "nickname": "Bagus",
-        "jenisKelamin": "L",
-        "tanggalLahir": "23 Apr 2008",
-        "hobi": [
-            "Main Valorant, Tidur"
-        ]
+        "nama": "Dayra Avriliazzahra",
+        "nickname": "Day",
+        "jenisKelamin": "P",
+        "tanggalLahir": "06 Apr 2008",
+        "hobi": "Dance, Koleksi Merch"
     },
     {
         "id": 8,
-        "nama": "Citra Dewi Lestari",
-        "nickname": "Citra",
-        "jenisKelamin": "P",
-        "tanggalLahir": "09 May 2008",
-        "hobi": [
-            "Nonton Drakor, Desain UI/UX"
-        ]
+        "nama": "Derien Adelio Rhaivan",
+        "nickname": "Derien",
+        "jenisKelamin": "L",
+        "tanggalLahir": "07 Apr 2009",
+        "hobi": "Bermain Game, Badminton"
     },
     {
         "id": 9,
-        "nama": "Daffa Fadhlurrahman",
-        "nickname": "Daffa",
+        "nama": "Diaz Arqila",
+        "nickname": "Diaz",
         "jenisKelamin": "L",
-        "tanggalLahir": "30 Jun 2008",
-        "hobi": [
-            "Ngoding, Dengerin Podcast"
-        ]
+        "tanggalLahir": "01 May 2009",
+        "hobi": "Main Game Sports"
     },
     {
         "id": 10,
@@ -105,129 +85,103 @@
         "nickname": "Dimas",
         "jenisKelamin": "L",
         "tanggalLahir": "11 Jul 2008",
-        "hobi": [
-            "Futsal, Main Chess.com"
-        ]
+        "hobi": "Futsal, Main Chess.com"
     },
     {
         "id": 11,
-        "nama": "Eka Putri Wahyuni",
-        "nickname": "Eka",
-        "jenisKelamin": "P",
-        "tanggalLahir": "19 Aug 2008",
-        "hobi": [
-            "Membaca Wattpad, Coding"
-        ]
+        "nama": "Faris Faizulhaq Alakiyas",
+        "nickname": "Ris",
+        "jenisKelamin": "L",
+        "tanggalLahir": "01 Nov 2008",
+        "hobi": "Rebahan"
     },
     {
         "id": 12,
-        "nama": "Fajar Sidiq Permana",
-        "nickname": "Fajar",
+        "nama": "Hadrian Rangga Ardiantara",
+        "nickname": "Kiboy",
         "jenisKelamin": "L",
-        "tanggalLahir": "05 Sep 2008",
-        "hobi": [
-            "Olahraga, Modding Game"
-        ]
+        "tanggalLahir": "23 Nov 2008",
+        "hobi": "Ngoding, Main Game"
     },
     {
         "id": 13,
-        "nama": "Farhan Alamsyah",
-        "nickname": "Farhan",
+        "nama": "Hasby Wira Al Muflih",
+        "nickname": "Abey",
         "jenisKelamin": "L",
-        "tanggalLahir": "14 Oct 2008",
-        "hobi": [
-            "Main Genshin Impact, Ngoding"
-        ]
+        "tanggalLahir": "10 Jun 2009",
+        "hobi": "Nge-band, Coding, Jadi Keren"
     },
     {
         "id": 14,
-        "nama": "Gita Cahyani",
-        "nickname": "Gita",
-        "jenisKelamin": "P",
-        "tanggalLahir": "22 Nov 2008",
-        "hobi": [
-            "Masak, Belajar Animasi"
-        ]
+        "nama": "Hazfi Febrianto",
+        "nickname": "Hazfi",
+        "jenisKelamin": "L",
+        "tanggalLahir": "04 Feb 2009",
+        "hobi": "Olahraga, Bermain Game"
     },
     {
         "id": 15,
-        "nama": "Hafizhuddin Majid",
-        "nickname": "Hafizh",
+        "nama": "Khaffa Daru Hastri",
+        "nickname": "Khaffa",
         "jenisKelamin": "L",
-        "tanggalLahir": "01 Dec 2008",
-        "hobi": [
-            "Badminton, Ngulik Framework"
-        ]
+        "tanggalLahir": "04 Apr 2009",
+        "hobi": "Ricing Linux, Nonton King MU"
     },
     {
         "id": 16,
-        "nama": "Indah Permatasari",
-        "nickname": "Indah",
+        "nama": "Khaira Naura Khalishah",
+        "nickname": "Khaira",
         "jenisKelamin": "P",
-        "tanggalLahir": "07 Jan 2009",
-        "hobi": [
-            "Menulis, Desain Grafis"
-        ]
+        "tanggalLahir": "19 May 2009",
+        "hobi": "Menari, Main Basket"
     },
     {
         "id": 17,
-        "nama": "Joko Susilo",
-        "nickname": "Joko",
+        "nama": "M. Arif Varian Almer",
+        "nickname": "Ripz",
         "jenisKelamin": "L",
-        "tanggalLahir": "25 Feb 2009",
-        "hobi": [
-            "Main E-Football, Mancing"
-        ]
+        "tanggalLahir": "05 Nov 2008",
+        "hobi": "Main Game, Badminton"
     },
     {
         "id": 18,
-        "nama": "Kevin Sanjaya",
-        "nickname": "Kevin",
+        "nama": "Muhammad Ezra Putra Arkana",
+        "nickname": "Ezra",
         "jenisKelamin": "L",
-        "tanggalLahir": "13 Mar 2009",
-        "hobi": [
-            "Berenang, Speedrunning Game"
-        ]
+        "tanggalLahir": "06 Dec 2008",
+        "hobi": "Nonton F1, Main Game & Masak"
     },
     {
         "id": 19,
-        "nama": "Laila Fitriani",
-        "nickname": "Laila",
-        "jenisKelamin": "P",
-        "tanggalLahir": "29 Apr 2009",
-        "hobi": [
-            "Fotografi, Nonton Anime"
-        ]
+        "nama": "Muhammad Fiqri Ramadhan Kurniawan",
+        "nickname": "Pikri",
+        "jenisKelamin": "L",
+        "tanggalLahir": "09 Jun 2008",
+        "hobi": "Main Gitar"
     },
     {
         "id": 20,
-        "nama": "Muhammad Rizky",
-        "nickname": "Rizky",
+        "nama": "Muhammad Ardika Suhardiman",
+        "nickname": "Dika",
         "jenisKelamin": "L",
-        "tanggalLahir": "08 May 2009",
-        "hobi": [
-            "Main MLBB, Ngelamun"
-        ]
+        "tanggalLahir": "18 May 2009",
+        "hobi": "Main Sepak Bola"
     },
     {
         "id": 21,
-        "nama": "Nabila Syahputri",
-        "nickname": "Nabila",
-        "jenisKelamin": "P",
-        "tanggalLahir": "17 Jun 2009",
-        "hobi": [
-            "Menyanyi, Bikin Konten TikTok"
-        ]
+        "nama": "Muhammad Aziz Zakaria",
+        "nickname": "Aziz",
+        "jenisKelamin": "L",
+        "tanggalLahir": "23 Mar 2009",
+        "hobi": "Bermain Game, Menghapal Sejarah"
     },
     {
         "id": 22,
-        "nama": "Naufal Abdi",
-        "nickname": "Naufal",
+        "nama": "Muhammad Khalifa Aisy Hafiy",
+        "nickname": "Alip",
         "jenisKelamin": "L",
-        "tanggalLahir": "26 Jul 2009",
-        "hobi": [
-            "Ngulik JavaScript, Streaming"
-        ]
+        "tanggalLahir": "15 Jan 2009",
+        "hobi": "Vibe Coding, Tinggal Tidur"
     },
     {
         "id": 23,
@@ -235,138 +189,110 @@
         "nickname": "Tama",
         "jenisKelamin": "L",
         "tanggalLahir": "03 Aug 2009",
-        "hobi": [
-            "Otomotif, Main Minecraft"
-        ]
+        "hobi": "Otomotif, Main Minecraft"
     },
     {
         "id": 24,
-        "nama": "Putri Ayu Wandira",
-        "nickname": "Putri",
-        "jenisKelamin": "P",
-        "tanggalLahir": "12 Sep 2009",
-        "hobi": [
-            "Baking, Nonton YouTube"
-        ]
+        "nama": "Muhammad Rafi Putra Harliana",
+        "nickname": "Rafi",
+        "jenisKelamin": "L",
+        "tanggalLahir": "12 Jun 2008",
+        "hobi": "Main Game, Nonton Romance"
     },
     {
         "id": 25,
-        "nama": "Raihan Fachrezi",
-        "nickname": "Raihan",
+        "nama": "Nouval Rashya Ashari",
+        "nickname": "Pal",
         "jenisKelamin": "L",
-        "tanggalLahir": "21 Oct 2009",
-        "hobi": [
-            "Main Basket, Cyber Security"
-        ]
+        "tanggalLahir": "18 Nov 2008",
+        "hobi": "Renang, Main Game"
     },
     {
         "id": 26,
-        "nama": "Rina Sulistowati",
-        "nickname": "Rina",
+        "nama": "Qoriah Putri Mumpuni",
+        "nickname": "Qori",
         "jenisKelamin": "P",
-        "tanggalLahir": "02 Nov 2009",
-        "hobi": [
-            "Merajut, Belajar Python"
-        ]
+        "tanggalLahir": "03 Aug 2008",
+        "hobi": "Membaca Novel"
     },
     {
         "id": 27,
-        "nama": "Rizqi Ramadhan",
-        "nickname": "Ramadhan",
+        "nama": "Rafka Aleandra Putra",
+        "nickname": "Akaa",
         "jenisKelamin": "L",
-        "tanggalLahir": "10 Dec 2009",
-        "hobi": [
-            "Main Game FPS, Tidur siang"
-        ]
+        "tanggalLahir": "04 Aug 2009",
+        "hobi": "Olahraga, Main Game, Bermain dan banyak lagi"
     },
     {
         "id": 28,
-        "nama": "Samuel Christian",
-        "nickname": "Sam",
+        "nama": "Rakan Shaka Raufa",
+        "nickname": "Rakun",
         "jenisKelamin": "L",
-        "tanggalLahir": "18 Jan 2010",
-        "hobi": [
-            "Main Piano, Ngoding Game"
-        ]
+        "tanggalLahir": "18 Nov 2008",
+        "hobi": "Main Cities Skylines, Hidup"
     },
     {
         "id": 29,
-        "nama": "Siti Aminah",
-        "nickname": "Siti",
-        "jenisKelamin": "P",
-        "tanggalLahir": "04 Feb 2010",
-        "hobi": [
-            "Membaca Novel, Bantu Ibu"
-        ]
+        "nama": "Reindy Alfriza Suhendi",
+        "nickname": "Reindy",
+        "jenisKelamin": "L",
+        "tanggalLahir": "17 Apr 2009",
+        "hobi": "Bermain Game, Olahraga & Fotografi"
     },
     {
         "id": 30,
-        "nama": "Taufik Hidayat",
-        "nickname": "Taufik",
-        "jenisKelamin": "L",
-        "tanggalLahir": "14 Mar 2010",
-        "hobi": [
-            "Main Pingpong, Ngedit Video"
-        ]
+        "nama": "Sandina Ayladewi Nuradji",
+        "nickname": "Ayla",
+        "jenisKelamin": "P",
+        "tanggalLahir": "30 Oct 2008",
+        "hobi": "Mendengar Musik, Menonton Film"
     },
     {
         "id": 31,
-        "nama": "Tiara Ramadhani",
-        "nickname": "Tiara",
-        "jenisKelamin": "P",
-        "tanggalLahir": "22 Apr 2010",
-        "hobi": [
-            "Menari, Desain Web"
-        ]
+        "nama": "Satria Hillabi",
+        "nickname": "Satria",
+        "jenisKelamin": "L",
+        "tanggalLahir": "13 Mar 2009",
+        "hobi": "Main Game"
     },
     {
         "id": 32,
-        "nama": "Wahyu Hidayatullah",
-        "nickname": "Wahyu",
+        "nama": "Taufik Haikal",
+        "nickname": "Opik",
         "jenisKelamin": "L",
-        "tanggalLahir": "30 May 2010",
-        "hobi": [
-            "Main PB, Ngoding Backend"
-        ]
+        "tanggalLahir": "29 Oct 2008",
+        "hobi": "Futsal, Motoran"
     },
     {
         "id": 33,
-        "nama": "Wulan Dari",
-        "nickname": "Wulan",
-        "jenisKelamin": "P",
-        "tanggalLahir": "08 Jun 2010",
-        "hobi": [
-            "Sketsa Wajah, Nge-blog"
-        ]
+        "nama": "Vikry Alfahri",
+        "nickname": "Vikry",
+        "jenisKelamin": "L",
+        "tanggalLahir": "07 Jun 2009",
+        "hobi": "Main Gitar"
     },
     {
         "id": 34,
-        "nama": "Yayan Ruhiyan",
-        "nickname": "Yayan",
+        "nama": "Zaky Cairo Azwar",
+        "nickname": "Jek",
         "jenisKelamin": "L",
-        "tanggalLahir": "19 Jul 2010",
-        "hobi": [
-            "Silat, Nonton Aksi"
-        ]
+        "tanggalLahir": "10 Jun 2010",
+        "hobi": "Main Game, Ngulik Coding, Mancing Masalah"
     },
     {
         "id": 35,
-        "nama": "Zahra Amelia",
-        "nickname": "Zahra",
+        "nama": "Zaneta Aulia Putri",
+        "nickname": "Janet",
         "jenisKelamin": "P",
-        "tanggalLahir": "27 Aug 2010",
-        "hobi": [
-            "Jalan-jalan, Belajar AI"
-        ]
+        "tanggalLahir": "20 Nov 2008",
+        "hobi": "Nonton, Membaca Manhwa"
     },
     {
         "id": 36,
-        "nama": "Zidan Alfiansyah",
-        "nickname": "Zidan",
-        "jenisKelamin": "L",
-        "tanggalLahir": "15 Sep 2010",
-        "hobi": [
-            "Main FIFA, Ngoding Fullstack"
-        ]
+        "nama": "Shafa Mutiara Salsabila",
+        "nickname": "Shafa",
+        "jenisKelamin": "P",
+        "tanggalLahir": "12 Apr 2010",
+        "hobi": "Berenang, Dance & Menonton Film"
     }
 ]
