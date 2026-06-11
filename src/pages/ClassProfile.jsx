@@ -28,7 +28,7 @@ export default function ClassProfile() {
                 <div className="font-head text-[119px] leading-none lg:text-[338px] lg:leading-65 rpl-dua">RPL</div>
                 <p className="font-body text-body-3 lg:text-body-2 rpl-paragraf">XI RPL 2 adalah kelas kompetensi keahlian Rekayasa Perangkat Lunak tingkat sebelas yang berfokus pada pengembangan perangkat lunak. Kami mempelajari fondasi pemrograman, arsitektur basis data, algoritma, serta siklus pengembangan aplikasi mulai dari tahap perancangan hingga penyusunan kode program.</p>
             </div>
-            <div ref={tickerRef} className="w-[200%] h-fit -translate-x-40 bg-light rpl-letter text-dark font-body text-body-3 lg:text-body-2 p-2 whitespace-nowrap tracking-widest select-none ticker">
+            <div ref={tickerRef} className="w-[300%] h-fit -translate-x-35 bg-light rpl-letter text-dark font-body text-body-3 lg:text-body-2 p-2 whitespace-nowrap tracking-widest select-none ticker">
                 <div className=""></div>
                 <div className="flex gap-12 ticker-wrap">
                     <div className="flex gap-12 ticker-text">
@@ -43,7 +43,7 @@ export default function ClassProfile() {
             </div>
             <div className="flex flex-col lg:flex-row gap-7.5 lg:gap-30 lg:items-end">
                 <p className="font-body text-body-3 lg:text-body-2 rpl-paragraf">Melalui integrasi pembelajaran teori dan praktik di laboratorium komputer, kelas ini dilatih untuk menguasai berbagai bahasa pemrograman modern, metodologi pencarian eror (debugging), hingga pengembangan antarmuka web yang responsif serta adaptif terhadap kebutuhan industri.</p>
-                <div className="font-head text-[119px] leading-none lg:text-[338px] lg:leading-65 rpl-dua self-end">DUA</div>
+                <div className="font-head text-[119px] leading-none lg:text-[338px] lg:leading-65 rpl-dua sm:self-start md:self-end">DUA</div>
             </div>
         </div>
     )

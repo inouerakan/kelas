@@ -182,7 +182,7 @@ function App() {
 
     gsap.set(studentItems, { opacity: 0, scale: 0.7, top: 60 });
     gsap.set('.app-container', { backgroundColor: '#f3eadc' });
-    gsap.set('.instruction-text', { opacity: 0 });
+    gsap.set('.instruction-click', { opacity: 0 });
     gsap.set('.bg-students', { opacity: 0, left: 1400 });
 
     const tween = gsap.to(students, {
@@ -198,8 +198,11 @@ function App() {
       pin: true,
       animation: tween,
       scrub: 1,
-      onEnter: () => gsap.to(['.bg-students', '.instruction-text'], { opacity: 1, duration: .5 }),
-      onLeave: () => gsap.to('.instruction-text', { opacity: 0, duration: .5 })
+      onEnter: () => {
+        gsap.to(['.bg-students', '.instruction-click'], { opacity: 1, duration: .5 });
+        gsap.to('.instruction-scroll', { opacity: 0, duration: .5 });
+      },
+      onLeave: () => gsap.to('.instruction-click', { opacity: 0, duration: .5 })
     });
 
     gsap.to('.bg-students', {
@@ -321,6 +324,34 @@ function App() {
       delay: 2.4
     })
 
+    let splitHeroMidText = SplitText.create('.hero-mid-text', {
+      type: 'lines, words',
+      linesClass: 'overflow-hidden whitespace-nowrap'
+    })
+
+    let splitHeroSideText = SplitText.create('.hero-side-text', {
+      type: 'lines, words',
+      linesClass: 'overflow-hidden whitespace-nowrap'
+    })
+
+    gsap.from(splitHeroMidText.words, {
+      delay: 0.5,
+      duration: 1.2,
+      mask: 'lines',
+      yPercent: 100,
+      stagger: 0.1,
+      ease: 'expo.out'
+    })
+
+    gsap.from(splitHeroSideText.words, {
+      delay: 0.75,
+      duration: 1,
+      mask: 'lines',
+      yPercent: 100,
+      stagger: 0.05,
+      ease: 'expo.out'
+    })
+
     studentItems.forEach((item) => {
       gsap.to(item, {
         opacity: 1,
@@ -349,6 +380,8 @@ function App() {
         <Gallery />
       ) : (
         <>
+          <div className='font-body text-body-3 fixed bottom-4 left-1/2 -translate-x-1/2 instruction-scroll'>Scroll Ya!</div>
+          <div className='font-body text-body-3 fixed bottom-4 left-1/2 -translate-x-1/2 instruction-click'>Klik Fotonya!</div>
           <Hero />
           <StudentProfile data={data} />
           <ClassProfile />

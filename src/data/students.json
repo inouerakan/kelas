@@ -1,11 +1,11 @@
 [
     {
         "id": 0,
-        "nama": "Rima",
+        "nama": "Rima Ratna Puri, SPd.,MM. Gr.",
         "nickname": "Rima",
         "jenisKelamin": "P",
-        "tanggalLahir": "17 Aug 1945",
-        "hobi": "Playing, Living"
+        "tanggalLahir": "28 Aug 1982",
+        "hobi": "Olahraga"
     },
     {
         "id": 1,
@@ -84,8 +84,8 @@
         "nama": "Fakhri Rizki",
         "nickname": "Tupaks",
         "jenisKelamin": "L",
-        "tanggalLahir": "-",
-        "hobi": "-"
+        "tanggalLahir": "10 Jun 2008",
+        "hobi": "Nyanyi"
     },
     {
         "id": 11,
@@ -186,10 +186,10 @@
     {
         "id": 23,
         "nama": "Muhammad Nur Rafie Dirgahayu",
-        "nickname": "fie",
+        "nickname": "Rafi",
         "jenisKelamin": "L",
-        "tanggalLahir": "-",
-        "hobi": "-"
+        "tanggalLahir": "30 Nov 2008",
+        "hobi": "Basket"
     },
     {
         "id": 24,
@@ -229,7 +229,7 @@
         "nickname": "Rakun",
         "jenisKelamin": "L",
         "tanggalLahir": "18 Nov 2008",
-        "hobi": "Main Cities Skylines, Hidup"
+        "hobi": "Main Cities Skylines, Mikir"
     },
     {
         "id": 29,
