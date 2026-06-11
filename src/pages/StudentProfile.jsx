@@ -89,7 +89,12 @@ export default function StudentProfile({ data }) {
         <div id="student-profile" className="w-fit h-svh flex items-center gap-35 pl-110 md:pl-300 pr-80 md:pr-140 font-head students relative">
             {data.map((item, index) => {
                 const fileName = item.nama.toLowerCase().split(' ').join('');
-                const imageUrl = new URL(`../assets/images/students/${fileName}.webp`, import.meta.url).href;
+                let imageUrl;
+                if (index === 0) {
+                    imageUrl = new URL(`../assets/images/students/rima.webp`, import.meta.url).href;
+                } else {
+                    imageUrl = new URL(`../assets/images/students/${fileName}.webp`, import.meta.url).href;
+                }
 
                 return (
                     <div
